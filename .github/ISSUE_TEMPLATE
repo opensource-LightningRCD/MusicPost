@@ -1,5 +1,5 @@
 ---
-name: 我要投稿
+name: 🎶我要投稿
 about: 使用这个模板向@opensource-LightningRCD投稿你的音乐吧!
 ---
 
@@ -14,3 +14,12 @@ about: 使用这个模板向@opensource-LightningRCD投稿你的音乐吧!
 - OP: [宣传公司]
 - CoRcd: [其他录音厂]
 - OrgThumbnailUrl: [原封面地址]
+
+---
+name: 🐞Bug汇报
+about: 使用这个模板汇报出现的bug!
+---
+
+## 复述你发生的问题
+
+## 复现过程
