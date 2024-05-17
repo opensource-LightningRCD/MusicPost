@@ -1,0 +1,126 @@
+name: 🎶我要投稿
+description: 使用这个模板向@opensource-LightningRCD投稿你的音乐吧!
+title: "[MusicPost]: "
+labels: ["bug", "triage"]
+assignees:
+  - octocat
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请填写下表，等候我们的回应！
+  - type: input
+    id: m_title
+    attributes:
+      label: 音乐标题
+      description: 音乐的标题
+      placeholder: ex. Bear
+    validations:
+      required: false
+  - type: input
+    id: m_subtitle
+    attributes:
+      label: 音乐副标题
+      description: 音乐的副标题
+      placeholder: ex. (Extened Mix)
+    validations:
+      required: false
+  - type: input
+    id: m_bpm
+    attributes:
+      label: 音乐的BPM
+      description: 音乐的准确BPM
+      placeholder: ex. 128.000
+    validations:
+      required: false
+  - type: input
+    id: m_authors
+    attributes:
+      label: 音乐创作者
+      description: 音乐的创作者们
+      placeholder: ex. Werearentwolf & KandaGiGi
+    validations:
+      required: false
+  - type: input
+    id: m_artwork
+    attributes:
+      label: 美术工作者
+      description: 为了音乐的美术工作者们
+      placeholder: ex. Werearentwolf & KandaGiGi
+    validations:
+      required: false
+  - type: input
+    id: m_mix
+    attributes:
+      label: 混音者
+      description: 音乐混音者
+      placeholder: ex. Werearentwolf & KandaGiGi
+    validations:
+      required: false  
+  - type: input
+    id: m_op
+    attributes:
+      label: 宣传机构
+      description: 音乐的宣传机构
+      placeholder: ex. ASCoS Studio
+    validations:
+      required: false
+  - type: input
+    id: m_corcd
+    attributes:
+      label: 投稿的其他厂牌
+      description: 单曲投稿的其他厂牌
+      placeholder: ex. Lightning Record Studio
+    validations:
+      required: false
+  - type: input
+    id: m_orgthumburl
+    attributes:
+      label: 原专辑封面
+      description: 填入专辑的封面地址
+      placeholder: ex. https://opensource.lightning.record/example/thumbnail.png
+    validations:
+      required: false
+  - type: dropdown
+    id: m_genre
+    attributes:
+      label: 音乐风格
+      description: 您的音乐的风格是什么？我们会将就考虑您的投稿！
+      options:
+        - Future Bounce
+        - Future House
+        - Melodic House
+        - Dubstep
+        - Brostep
+        - Melodic Dubstep
+        - Progressive House
+        - Eurorack
+        - Chiptune
+        - Bass House
+        - Stutter House
+        - Tropical House
+        - [Special]Bass Music
+        - [Special]House Music
+        - [Special]Experimental Music
+      default: 0
+    validations:
+      required: true
+  - type: checkboxes
+    id: m_check
+    attributes:
+      label: 同意下方内容
+      description: 下方是我们@opensource-LightningRCD的投稿须知，请同意才能通过申请！
+      options:
+        - label: 我同意接受因为投稿导致的法律风险
+          required: true
+        - label: 我同意@opensource-LightningRCD组织不受任何法律追究！
+          required: true
+        - label: 我同意将我的音乐投稿到@opensource-LightningRCD组织并且遵守开源规则！
+          required: true
+        - label: 我同意@opensource-LightningRCD组织可以存储已发行于他人公司的音乐，且不受法律追究！
+          required: true
+        - label: 我同意 (opensource-LightningRCD-EULA)[https://github.com/opensource-LightningRCD/os-lrcd-copyright-eula]
+          required: true
+        
+        
+        
