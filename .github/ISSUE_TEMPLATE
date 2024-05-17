@@ -1,0 +1,16 @@
+---
+name: 我要投稿
+about: 使用这个模板向@opensource-LightningRCD投稿你的音乐吧!
+---
+
+## 音乐信息
+- Title: [音乐标题]
+- Subtitle: [音乐副标题]
+- Genere: [音乐风格]
+- BPM: [准确BPM | e.g. 128.000]
+- Authors: [作者们]
+- Artwork: [美术工作]
+- Mix: [混音者]
+- OP: [宣传公司]
+- CoRcd: [其他录音厂]
+- OrgThumbnailUrl: [原封面地址]
